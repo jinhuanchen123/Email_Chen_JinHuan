@@ -1,0 +1,87 @@
+.container-fluid{
+    background-color: rgba(16, 17, 17, 0.995);
+}
+
+.my-container{
+    min-height: calc(100vh);
+}
+
+.my-row{
+    height: calc(100%);
+}
+
+
+.custom-container{
+    background-color: lightblue;
+    text-align: center;
+    padding: 50px;
+    flex-direction:column;
+    justify-content: space-between;
+    overflow-y: auto;
+    text-wrap: wrap;
+ 
+
+
+}
+
+ 
+
+.btn{
+    background-color: azure;
+    border-color: black; 
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between ;
+
+}
+#email-received{
+    background-color: azure;
+    border-color: black; 
+    flex:auto;
+    width: 400px;
+    height:400px;
+    max-width: 100%; /*Avoid exceeding the container's width */
+    text-align: start;
+    text-align: justify;
+    text-wrap: top;
+    align-items: center;
+    justify-content: center;        
+    
+}
+
+#reply-email{
+    background-color: azure;
+    border-color: black; 
+    flex:auto;
+    width: 400px;
+    height:400px;
+    max-width: 100%; /*Avoid exceeding the container's width */
+    text-align: start;
+    text-align: justify;
+   text-wrap: top;
+   align-items: center;
+   justify-content: center; 
+}
+
+.container-top{
+    color:azure;
+}
+
+#From{
+background-color: azure;
+}
+#To{
+background-color: azure;
+}
+
+
+@media (max-width: 575px){
+    #middle-col{
+        height: 30vh;
+    }
+}
+
+@media(min-width:576px){
+    #middle-col{
+        height: 100vh;
+    }
